@@ -2,7 +2,7 @@ package com.ms.shop.service;
 
 import com.ms.shop.converter.DTOConverter;
 import com.ms.shop.exception.CategoryNotFoundException;
-import com.ms.shop.exception.advice.ProductControllerAdvice;
+import com.ms.shop.exception.ProductNotFoundException;
 import com.ms.shop.model.Product;
 import com.ms.shop.repository.CategoryRepository;
 import com.ms.shop.repository.ProductRepository;
@@ -32,12 +32,12 @@ public class ProductService {
         return products.stream().map(DTOConverter::convert).collect(Collectors.toList());
     }
 
-    public ProductDTO findByProductIdentifier(String  productIdentifier) throws ProductControllerAdvice {
+    public ProductDTO findByProductIdentifier(String  productIdentifier) throws ProductNotFoundException {
         Product product = productRepository.findByProductIdentifier(productIdentifier);
         if (product != null) {
             return DTOConverter.convert(product);
         }
-        throw new ProductControllerAdvice();
+        throw new ProductNotFoundException();
     }
 
     public ProductDTO save(ProductDTO productDTO) {
@@ -49,11 +49,11 @@ public class ProductService {
         return DTOConverter.convert(product);
     }
 
-    public ProductDTO delete(long ProductId) throws ProductControllerAdvice {
+    public ProductDTO delete(long ProductId) throws ProductNotFoundException {
         Optional<Product> Product = productRepository.findById(ProductId);
         if (Product.isPresent()) {
             productRepository.delete(Product.get());
         }
-        throw new ProductControllerAdvice();
+        throw new ProductNotFoundException();
     }
 }

@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa318043-f442-4eeb-991a-36289442af3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_spring_commons_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_spring_mock_mvc_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_3_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_3_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-product/src/test/java/com/ms/shop/productController/TestCreateProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-product/src/test/java/com/ms/shop/productController/TestGetProductIdentifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-product/src/test/java/com/ms/shop/productService/TestCreateProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-product/src/test/java/com/ms/shop/productService/TestGetProductAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-product/src/test/java/com/ms/shop/productService/TestGetProductByIdentifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-product/src/main/java/com/ms/shop/dto/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-product/src/main/java/com/ms/shop/dto/CategoryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-product/src/main/java/com/ms/shop/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-product/src/main/java/com/ms/shop/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-product/src/main/java/com/ms/shop/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-product/src/main/java/com/ms/shop/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-product/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-shop/src/main/java/com/ms/shop/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-shop/src/main/java/com/ms/shop/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-shop/src/main/java/com/ms/shop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-shop/src/main/java/com/ms/shop/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-shop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-shop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +59,9 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
@@ -35,8 +69,14 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21YoBOCh9QfU9Mx4qhE8qQ5o3Mu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,36 +87,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ms-product/src/test/java/com/ms/shop" />
   </component>
-  <component name="RunManager" selected="Application.MicroservicesApplication (2)">
-    <configuration name="MicroservicesApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ms.shop.MicroservicesApplication" />
-      <module name="ms-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ms.shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroservicesApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ms.shop.MicroservicesApplication" />
-      <module name="ms-shop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ms.shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroservicesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ms.shop.MicroservicesApplication" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ms-product/src/test/java/com/product" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ms.shop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.ms.shop in ms-product">
+    <configuration name="MicroservicesApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ms-product" />
       <extension name="coverage">
         <pattern>
@@ -84,15 +107,80 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ms.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.ms.shop.MicroservicesApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCreateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ms-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ms.shop.productController.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ms.shop.productController" />
+      <option name="MAIN_CLASS_NAME" value="com.ms.shop.productController.TestCreateProduct" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCreateProduct.CaseCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ms-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ms.shop.productController.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ms.shop.productController" />
+      <option name="MAIN_CLASS_NAME" value="com.ms.shop.productController.TestCreateProduct" />
+      <option name="METHOD_NAME" value="CaseCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGetProductIdentifier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ms-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ms.shop.productController.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ms.shop.productController" />
+      <option name="MAIN_CLASS_NAME" value="com.ms.shop.productController.TestGetProductIdentifier" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ms.shop in ms-product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ms-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ms.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ms.shop" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MicroservicesApplication (2)" />
-        <item itemvalue="Application.MicroservicesApplication" />
-        <item itemvalue="Application.MicroservicesApplication (1)" />
+        <item itemvalue="JUnit.com.ms.shop in ms-product" />
+        <item itemvalue="JUnit.MicroservicesApplicationTests" />
+        <item itemvalue="JUnit.TestCreateProduct.CaseCreate" />
+        <item itemvalue="JUnit.TestCreateProduct" />
+        <item itemvalue="JUnit.TestGetProductIdentifier" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +194,17 @@
       <updated>1638127245649</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -123,6 +222,11 @@
           <url>file://$PROJECT_DIR$/ms-shop/src/main/java/com/ms/shop/controller/ShopController.java</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-shop/src/main/java/com/ms/shop/service/ProductService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

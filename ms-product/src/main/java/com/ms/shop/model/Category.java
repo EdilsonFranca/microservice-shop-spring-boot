@@ -3,11 +3,15 @@ package com.ms.shop.model;
 import javax.persistence.*;
 
 import com.ms.shop.dto.CategoryDTO;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity(name = "category")
 public class Category {
     @Id
